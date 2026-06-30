@@ -157,3 +157,44 @@ button:hover{
     text-align:center;
 
 }
+
+/* ================= SKILLS ================= */
+
+.skills {
+  padding: 100px 10%;
+  background: #0f172a;
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 42px;
+  color: #38bdf8;
+  margin-bottom: 60px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.skill-card {
+  background: #111827;
+  padding: 35px 25px;
+  border-radius: 16px;
+  text-align: center;
+  border: 1px solid #1f2937;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  border-color: #38bdf8;
+  box-shadow: 0 10px 30px rgba(56, 189, 248, 0.2);
+}
+
+.skill-card h3 {
+  color: white;
+  font-size: 22px;
+}
