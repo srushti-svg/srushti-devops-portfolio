@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  background-color: #0f172a;
+
+  color: white;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.greeting{
+    font-size:24px;
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.hero h1{
+    font-size:70px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.hero h2{
+    font-size:34px;
+    color:white;
+    margin-bottom:10px;
+}
+
+.hero h3{
+    color:#38bdf8;
+    margin-bottom:25px;
+}
+
+.description{
+    max-width:750px;
+    line-height:1.8;
+    font-size:20px;
+    color:#cbd5e1;
+    margin-bottom:40px;
+}
+
+.buttons{
+    display:flex;
+    gap:20px;
+}
+
+.primary-btn{
+    background:#38bdf8;
+    color:white;
+}
+
+
+.secondary-btn{
+    background:transparent;
+    border:2px solid #38bdf8;
+    color:#38bdf8;
+}
+
+button{
+    padding:15px 30px;
+    border:none;
+    border-radius:8px;
+    font-size:17px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-5px);
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:20px 80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#111827;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#38bdf8;
+}
+
+/* ================= ABOUT ================= */
+
+.about{
+
+    padding:100px 10%;
+
+    background:#111827;
+
+}
+
+.about h2{
+
+    text-align:center;
+
+    font-size:42px;
+
+    color:#38bdf8;
+
+    margin-bottom:40px;
+
+}
+
+.about p{
+
+    max-width:900px;
+
+    margin:auto;
+
+    font-size:20px;
+
+    line-height:1.9;
+
+    color:#d1d5db;
+
+    text-align:center;
+
+}
