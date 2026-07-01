@@ -14,19 +14,19 @@ function Contact() {
         <p>
           📧 Email:
           <br />
-          <strong>YOUR_EMAIL@gmail.com</strong>
+          <strong>srushtim61@gmail.com</strong>
         </p>
 
         <p>
           💼 LinkedIn:
           <br />
-          <strong>linkedin.com/in/YOUR_PROFILE</strong>
+          <strong>Srushti Meshram</strong>
         </p>
 
         <p>
           💻 GitHub:
           <br />
-          <strong>github.com/YOUR_USERNAME</strong>
+          <strong>srushti-svg</strong>
         </p>
 
       </div>

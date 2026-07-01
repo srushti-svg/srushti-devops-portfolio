@@ -2,7 +2,7 @@ import {
   FaLinux,
   FaDocker,
   FaJenkins,
-  FaPython,
+  FaGithub,
   FaGitAlt,
 } from "react-icons/fa";
 
@@ -10,7 +10,8 @@ import {
   SiKubernetes,
   SiTerraform,
   SiAnsible,
-  SiSplunk,
+  SiPrometheus,
+  SiGrafana,
 } from "react-icons/si";
 
 function Skills() {
@@ -21,10 +22,12 @@ function Skills() {
     { name: "Kubernetes", icon: <SiKubernetes /> },
     { name: "Terraform", icon: <SiTerraform /> },
     { name: "Jenkins", icon: <FaJenkins /> },
-    { name: "Python", icon: <FaPython /> },
+    { name: "GitHub Actions", icon: <FaGithub /> },
+    { name: "ArgoCD", icon: "🚀" },
     { name: "Ansible", icon: <SiAnsible /> },
-    { name: "Splunk", icon: <SiSplunk /> },
     { name: "Git", icon: <FaGitAlt /> },
+    { name: "Prometheus", icon: <SiPrometheus /> },
+    { name: "Grafana", icon: <SiGrafana /> },
   ];
 
   return (
