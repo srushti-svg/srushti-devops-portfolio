@@ -2,7 +2,6 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -11,7 +10,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
-      <Experience />
+      <h1>Hello Srushti 🚀</h1>
     </>
   );
 }
