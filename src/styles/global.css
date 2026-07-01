@@ -198,3 +198,69 @@ button:hover{
   color: white;
   font-size: 22px;
 }
+
+/* ================= EXPERIENCE ================= */
+
+.experience {
+  padding: 100px 10%;
+  background: #111827;
+}
+
+.experience h2 {
+  text-align: center;
+  color: #38bdf8;
+  font-size: 42px;
+  margin-bottom: 60px;
+}
+
+.experience-card {
+  max-width: 900px;
+  margin: auto;
+  background: #1f2937;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid #374151;
+}
+
+.experience-card h3 {
+  font-size: 30px;
+  color: white;
+}
+
+.experience-card h4 {
+  color: #38bdf8;
+  margin-top: 10px;
+}
+
+.duration {
+  color: #9ca3af;
+  margin: 15px 0 25px;
+}
+
+.experience-card ul {
+  padding-left: 20px;
+}
+
+.experience-card li {
+  color: #d1d5db;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+
+/* Experience Items */
+
+.exp-item{
+    margin-top:35px;
+}
+
+.exp-item h5{
+    font-size:22px;
+    color:#38bdf8;
+    margin-bottom:12px;
+}
+
+.exp-item p{
+    color:#d1d5db;
+    line-height:1.8;
+    font-size:18px;
+}
