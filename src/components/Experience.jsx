@@ -15,7 +15,7 @@ function Experience() {
         </p>
 
         <div className="exp-item">
-          <h5>🚀 CI/CD & Automation</h5>
+          <h5> CI/CD & Automation</h5>
           <p>
             Designed and implemented Jenkins CI/CD pipelines,
             GitOps workflows using ArgoCD & Helm,
@@ -24,7 +24,7 @@ function Experience() {
         </div>
 
         <div className="exp-item">
-          <h5>☁️ Cloud & Infrastructure</h5>
+          <h5> Cloud & Infrastructure</h5>
           <p>
             Automated AWS infrastructure using Terraform
             (VPC, EC2, S3, IAM) and managed Amazon EKS clusters.
@@ -32,7 +32,7 @@ function Experience() {
         </div>
 
         <div className="exp-item">
-          <h5>☸️ Containers & Kubernetes</h5>
+          <h5> Containers & Kubernetes</h5>
           <p>
             Built Docker images, deployed microservices,
             configured RBAC, Namespaces, HPA,
@@ -41,7 +41,7 @@ function Experience() {
         </div>
 
         <div className="exp-item">
-          <h5>📊 Monitoring & Reliability</h5>
+          <h5> Monitoring & Reliability</h5>
           <p>
             Configured Prometheus, Grafana,
             Splunk and New Relic dashboards,
@@ -50,7 +50,7 @@ function Experience() {
         </div>
 
         <div className="exp-item">
-          <h5>🔧 Production Support</h5>
+          <h5> Production Support</h5>
           <p>
             Performed root cause analysis,
             performance optimization,
